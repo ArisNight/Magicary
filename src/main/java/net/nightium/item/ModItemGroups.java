@@ -13,7 +13,7 @@ import net.nightium.block.ModBlocks;
 
 public class ModItemGroups {
 
-    public static final ItemGroup RITUALS = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup RITUALS = Registry.register(Registries.ITEM_GROUP, //Предметы для риуалов
             Identifier.of(Magicary.MOD_ID, "rituals"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BLOOD_SHARD))
                     .displayName(Text.translatable("itemgroups.magicary.rituals"))
@@ -21,7 +21,7 @@ public class ModItemGroups {
                       entries.add(ModItems.BLOOD_SHARD);
                     }).build());
 
-    public static final ItemGroup TOOLS = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup TOOLS = Registry.register(Registries.ITEM_GROUP, //Оружия и инструменты
             Identifier.of(Magicary.MOD_ID, "tools"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BLOOD_SHARD))
                     .displayName(Text.translatable("itemgroups.magicary.tools"))
@@ -29,7 +29,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BLOOD_SHARD);
                     }).build());
 
-    public static final ItemGroup JEWELRY = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup JEWELRY = Registry.register(Registries.ITEM_GROUP, //Драгоценности
             Identifier.of(Magicary.MOD_ID, "jewerly"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.BLOOD_SHARD_ORE))
                     .displayName(Text.translatable("itemgroups.magicary.jewerly"))
@@ -38,7 +38,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_BLOOD_SHARD_ORE);
                     }).build());
 
-    public static final ItemGroup SPELLS = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup SPELLS = Registry.register(Registries.ITEM_GROUP, //Заклинания
             Identifier.of(Magicary.MOD_ID, "spells"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BLOOD_SHARD))
                     .displayName(Text.translatable("itemgroups.magicary.spells"))
