@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "magicary:block/deepslate_blood_shard_ore"
+  }
+}

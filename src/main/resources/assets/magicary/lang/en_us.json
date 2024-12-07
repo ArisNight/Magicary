@@ -1,0 +1,13 @@
+{
+  "item.magicary.blood_shard": "Blood shard",
+
+  "": "Ritual Blade",
+
+  "block.magicary.blood_shard_ore": "Blood shard ore",
+  "block.magicary.deepslate_blood_shard_ore": "Deepslate blood shard ore",
+
+  "itemgroups.magicary.rituals": "Rituals",
+  "itemgroups.magicary.tools": "Tools",
+  "itemgroups.magicary.jewerly": "Jewerly",
+  "itemgroups.magicary.spells": "Spells"
+}
