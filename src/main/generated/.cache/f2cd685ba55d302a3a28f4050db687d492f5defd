@@ -1,0 +1,4 @@
+// 1.21	2024-12-07T20:56:28.1332217	Magicary/Tags for minecraft:block
+b820179323f5e8ff0a9ed3244af2838b7fe859df data\minecraft\tags\block\needs_iron_tool.json
+951fbe9ddd254e3db71ec7fe9cf184eb05e1a7e8 data\minecraft\tags\block\mineable\pickaxe.json
+6e3e89f98fb6bae639ecfa71e365d309da3b9ca2 data\magicary\tags\block\needs_blood_tool.json
